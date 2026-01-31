@@ -36,9 +36,5 @@ public class DefaultClientService {
         return clientRepository.findById(id);
     }
 
-//    public Client getByIdOrThrow(Long id) {
-//        return clientRepository.findById(id)
-//                .orElseThrow(() -> new RuntimeException("Клиент не найден с id: " + id));
-//    }
 
 }
